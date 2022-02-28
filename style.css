@@ -145,8 +145,7 @@ h1 {
   color: var(--very-dark-blue);
 }
 .text {
-  /*font-size: 1.125rem;*/
-  font-size: min(5vw, 1.125rem);
+  font-size: 1.125rem;
   color: var(--gray);
   padding: 1rem 0;
 }

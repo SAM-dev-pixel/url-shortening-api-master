@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header id="header">
+    <!-- navbar -->
+    <nav id="nav">
+      <a href="#" class="nav-logo" aria-label="Shortly"><img src="images/logo.svg" alt="Shortly"></a>
+      <!-- navbar links -->
+      <div class="nav-links-contain">
+        <ul class="nav-links">
+          <li><a href="#" class="nav-link">Features</a></li>
+          <li><a href="#" class="nav-link">Pricing</a></li>
+          <li><a href="#" class="nav-link">Resources</a></li>
+        </ul>
+        <!-- login & signup -->
+        <div class="login-contain">
+          <a href="#" class="login">Login</a>
+          <a href="#" class="sign-up">Sign Up</a>
+        </div>
+      </div>
+      <!-- burger button -->
+      <div class="burger-btn">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+  </header>
+  <!-- MAIN -->
+  <main id="main">
+    <!-- INTRODUCTION SECTION -->
+    <section class="introduction-sect">
+      <img src="images/illustration-working.svg" alt="" class="hero-img">
+      <div class="intro-txt">
+        <h1>More than just shorter links</h1>
+        <p class="text">Build your brand’s recognition and get detailed insights on how your links are performing.</p>
+        <a href="#" class="ctc-btn">Get Started</a>
+      </div>
+    </section>
+    <!-- SHORTEN LINK SECTION -->
+    <div class="shorten-link-section">
+      <div class="container shorten-link-contain">
+        <!-- shorten link input box -->
+        <div class="shorten-link-input-box">
+          <div class="shorten-input-contain">
+            <input type="text" placeholder="Shorten a link here..." class="shorten-input">
+          </div>
+          <a href="#" class="shorten-btn">Shorten It!</a>
+        </div>
+        <!-- result shorten link HERE-->
+      </div>
+      <!-- loading circle -->
+        <div class="shorten-loading">
+          <div></div>
+          <div></div>
+        </div>
+    </div>
+    <!-- ADVANCE SECTION -->
+    <section class="advance-sect">
+      <div class="container advance-container">
+        <h2>Advanced Statistics</h2>
+        <p class="text">Track how your links are performing across the web with our advanced statistics dashboard.</p>
+        <!-- advance statistics container -->
+        <div class="advances-contain">
+          <div class="bg-line"></div>
+          <article class="advance-box">
+            <div class="icon-contain">
+              <img src="images/icon-brand-recognition.svg" alt="">
+            </div>
+            <h3>Brand Recognition</h3>
+            <p class="text">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+          </article>
+          <article class="advance-box">
+            <div class="icon-contain">
+              <img src="images/icon-detailed-records.svg" alt="">
+            </div>
+            <h3>Detailed Records</h3>
+            <p class="text">Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+          </article>
+          <article class="advance-box">
+            <div class="icon-contain">
+              <img src="images/icon-fully-customizable.svg" alt="">
+            </div>
+            <h3>Fully Customizable</h3>
+            <p class="text">Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- BOOST SECTION -->
+    <section class="boost-sect">
+      <h3>Boost your links today</h3>
+      <a href="#" class="ctc-btn">Get Started</a>
+    </section>
+  </main>
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container footer-container">
+      <a href="#" aria-label="Shortly" class="foot-logo">
+        <img src="images/logo-light.svg" alt="Shortly">
+      </a>
+      <ul class="foot-links">
+        <strong>Features</strong>
+        <li><a href="#" class="foot-link">Link Shortening</a></li>
+        <li><a href="#" class="foot-link">Branded Links</a></li>
+        <li><a href="#" class="foot-link">Analytics</a></li>
+      </ul>
+      <ul class="foot-links">
+        <strong>Resources</strong>
+        <li><a href="#" class="foot-link">Blog</a></li>
+        <li><a href="#" class="foot-link">Developers</a></li>
+        <li><a href="#" class="foot-link">Support</a></li>
+      </ul>
+      <ul class="foot-links">
+        <strong>Company</strong>
+        <li><a href="#" class="foot-link">About</a></li>
+        <li><a href="#" class="foot-link">Our Team</a></li>
+        <li><a href="#" class="foot-link">Careers</a></li>
+        <li><a href="#" class="foot-link">Contact</a></li>
+      </ul>
+      <!-- social links -->
+      <ul class="social-links">
+        <li><a href="#" aria-label="facebook" class="social-link"><i class='bx bxl-facebook-square'></i></a></li>
+        <li><a href="#" aria-label="twitter" class="social-link"><i class='bx bxl-twitter' ></i></a></li>
+        <li><a href="#" aria-label="pinterest" class="social-link"><i class='bx bxl-pinterest' ></i></a></li>
+        <li><a href="#" aria-label="instagram" class="social-link"><i class='bx bxl-instagram' ></i></a></li>
+      </ul>
+    </div>
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
